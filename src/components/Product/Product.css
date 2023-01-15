@@ -1,0 +1,55 @@
+.product {
+    width: 300px;
+    height: 510px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+
+}
+
+.product img {
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.product-name {
+    font-size: 21px;
+    margin-top: -10px;
+    margin-bottom: 11px;
+    font-weight: 500;
+}
+
+.pro-price {
+    font-size: 17px;
+    margin-top: 11px;
+}
+
+
+.product-info {
+    padding: 10px;
+
+}
+
+.pro-info {
+    font-size: 13px;
+    margin-bottom: 11px;
+    margin-top: 11px;
+}
+
+.buy-now-btn {
+    width: 100%;
+    height: 48px;
+    background-color: rgb(230, 50, 188);
+    border: none;
+    border-radius: 0 0 8px 8px;
+    cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    color: white;
+}
+
+.buy-now-btn:hover {
+    background-color: rgba(22, 12, 159, 0.714);
+}

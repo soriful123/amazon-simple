@@ -1,0 +1,39 @@
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 100px;
+    margin-top: 50px;
+
+
+}
+
+.products img {
+    width: 286px;
+    height: 286px;
+}
+
+@media screen and (max-width: 900px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .products {
+        grid-template-columns: repeat(1fr);
+    }
+}
+
+.order-summaray {
+    background-color: rgba(177, 206, 34, 0.598);
+}
+
+.order-title {
+    text-align: center;
+}
